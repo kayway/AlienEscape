@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AlienEscapeEditorTarget : TargetRules
+public class BulletHellJamEditorTarget : TargetRules
 {
-	public AlienEscapeEditorTarget( TargetInfo Target) : base(Target)
+	public BulletHellJamEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "AlienEscape" } );
+		ExtraModuleNames.Add("BulletHellJam");
 	}
 }

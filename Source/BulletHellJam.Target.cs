@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AlienEscapeTarget : TargetRules
+public class BulletHellJamTarget : TargetRules
 {
-	public AlienEscapeTarget( TargetInfo Target) : base(Target)
+	public BulletHellJamTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "AlienEscape" } );
+		ExtraModuleNames.Add("BulletHellJam");
 	}
 }
